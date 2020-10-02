@@ -1,0 +1,137 @@
+#title{
+  background-color: #ff4c68;
+}
+h1{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: bold;
+}
+.container-fluid{
+  padding: 3% 12% 7%;
+}
+.headimage{
+  padding-left: 10%;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+.btn-cust{
+  margin-left: 30px;
+}
+.nav-bar{
+  margin-bottom:  4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-family: Montserrat-light;
+  font-size: 1.2rem;
+}
+.btn{
+  margin-top: 30px;
+}
+p{
+  color:#8f8f8f;
+}
+h2{
+  color: #fff;
+  font-size: 2.6rem;
+}
+h3{
+  font-family: "Montserrat-Bold";
+}
+.features-box{
+text-align: center;
+padding: 0 4%;
+}
+#features{
+  padding:  7% 15%;
+  position: relative;
+  background-color:  #fff;
+}
+.icon{
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+  background-color: #ef8172;
+  text-align: center;
+
+}
+.carousel-item{
+  padding: 3% 20%;
+}
+#press{
+  background-color: #ef8172;
+
+  text-align: center;
+}
+.dogimg{
+  width: 15%;
+  border-radius: 100%;
+  margin: 5% 2%;
+}
+.presimg{
+  width: 12%;
+  margin: 20px 20px 50px;
+
+}
+/* Pricing */
+#pricing{
+  padding: 2% 3%;
+  padding: 100px;
+}
+#pricing h2{
+  color: #000;
+  font-size: 2.6rem;
+
+}
+.cardpad{
+padding: 3% 2%;
+}
+
+#cta{
+background-color: #ff4c68;
+padding: 10% 20%;
+color: #fff;
+text-align: center;
+
+}
+
+.ctah3{
+  font-size: 3.2rem;
+  font-family: Montserrat-Bold;
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 13%;
+
+}
+.socialicon{
+  margin: 2%;
+}
+@media (max-width:992px) {
+  #title{
+    text-align: center;
+  }
+  .headimage{
+    transform: rotate(0);
+    position: static;
+    width: 40%;
+    padding: 20px 0 0;
+  }
+}
